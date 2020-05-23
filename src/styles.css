@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,20 +8,25 @@
 
 body {
   font-size: 14px;
+  font-family: 'Roboto', sans-serif;
 }
 
 div {
   width: 100%;
-  margin: 20px;
+  padding: 20px;
 }
 
 div li {
+  border: 1px solid #ddd;
+  background-color: #fafafa;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 div li + li {
-  margin-top: 15px;
+  border-top: none;
 }
 
 button {
@@ -34,6 +41,6 @@ button {
 }
 
 div li button {
-  margin: 0 15px;
+  margin: 0;
   background: #ca4949;
 }
